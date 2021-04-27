@@ -1,0 +1,18 @@
+.c_button {
+  background-color: red;
+  border: 1px solid red;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  transition: .6s ease-in;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.c_button:hover {
+  color: red;
+  background-color: white;
+  transition: .6s ease-out;
+}

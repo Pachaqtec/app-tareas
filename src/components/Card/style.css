@@ -1,0 +1,11 @@
+.c_card {
+  width: 250px;
+  padding: 20px;
+  border: 1px dashed red;
+  border-radius: 4px;
+}
+
+.c_card_form_options {
+  display: flex;
+  justify-content: space-around;
+}

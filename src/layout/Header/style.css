@@ -1,0 +1,22 @@
+.l_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 52px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+
+.l_header_nav {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.l_header_nav_option {
+  color: gray;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-weight: bold;
+  letter-spacing: 1px;
+}
