@@ -19,6 +19,12 @@ const Header = ({
           </Link>
           <Link
             className="l_header_nav_option"
+            to="/hero"
+          >
+            Hero
+          </Link>
+          <Link
+            className="l_header_nav_option"
             to="/others"
           >
             Others

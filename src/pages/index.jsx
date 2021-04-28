@@ -5,6 +5,7 @@ import Header from 'layout/Header/index'
 import Tasks from './Tasks'
 import Others from './Others'
 import NotFound from './NotFound'
+import Hero from './Hero'
 
 const Router = () => {
   return (
@@ -20,6 +21,9 @@ const Router = () => {
           />
           <Route path="/tasks">
             <Tasks />
+          </Route>
+          <Route path="/hero">
+            <Hero />
           </Route>
           <Route path="/others">
             <Others />
